@@ -14,3 +14,6 @@ En aplicaciones ASP.NET MVC o Web API, los controladores pueden beneficiarse del
 
 ## [✅ Validar la entrada del usuario antes de usarla en consultas **SQL (VB.NET)**](https://github.com/jmartinez-exosinf/visual-basic-net/blob/c5cd4b662ba5d2ff0e731b6f64e6f0c1a643d969/validar-entradas-usuario-para-consultas-sql.md)
 La validación de datos es crítica para evitar vulnerabilidades como **SQL Injection** y errores en la aplicación. Nunca debes usar datos sin verificar directamente en consultas **SQL**.
+
+## [🛡️ Cómo Sanitizar Nombres de Archivo](https://github.com/jmartinez-exosinf/visual-basic-net/blob/1744f3cce7d21233343dc9752e778dd98a9894e5/como-sanitizar-nombres-de-archivo.md)
+Sanitizar nombres de archivo es esencial para evitar errores y vulnerabilidades como directory traversal o el uso de caracteres inválidos. Este tutorial muestra cómo crear una función segura en VB.NET.
