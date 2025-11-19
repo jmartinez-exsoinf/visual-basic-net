@@ -1,4 +1,4 @@
-📘 Mini Tutorial: Formatear un Integer como número en VB.NET
+# 📘 Formatear un Integer como número en VB.NET
 En Visual Basic .NET, puedes convertir un valor Integer a una cadena con formato numérico utilizando el método .ToString() con especificadores de formato.
 🎯 Objetivo
 Convertir un valor Integer en una cadena con formato numérico legible, incluyendo separadores de miles y decimales si es necesario.
