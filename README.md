@@ -1,6 +1,9 @@
 # 📘 Visual Basic Net
 
-## [Construcción de cadenas dinámicas en VB.NET](https://github.com/jmartinez-exosinf/visual-basic-net/blob/7c5893f2c4cc747a151317e6d957a6f5cec47a1b/cadenas-dinamicas-strings.md)
+## [📘 Formatear un Integer como número](https://github.com/jmartinez-exosinf/visual-basic-net/blob/a8fb69e35f068136e34416ebe68524edb195ed11/formatear-integer.md)
+En Visual Basic .NET, puedes convertir un valor Integer a una cadena con formato numérico utilizando el método .ToString() con especificadores de formato.
+
+## [Construcción de cadenas dinámicas](https://github.com/jmartinez-exosinf/visual-basic-net/blob/7c5893f2c4cc747a151317e6d957a6f5cec47a1b/cadenas-dinamicas-strings.md)
 En Visual Basic .NET, construir cadenas dinámicas (strings) es una tarea común. Hay varias formas de hacerlo, pero dos de las más recomendadas son: ```String.Format``` e interpolación de cadenas ```($"")```.
 
 ## [Convertir un DataTable a JSON](https://github.com/jmartinez-exosinf/visual-basic-net/blob/8faea33a24591caf0a4e8e0637fb03952280f696/datatable-a-json.md)
