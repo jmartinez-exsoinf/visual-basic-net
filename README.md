@@ -6,6 +6,9 @@ En Visual Basic .NET, puedes convertir un valor Integer a una cadena con formato
 ## [Construcción de cadenas dinámicas](https://github.com/jmartinez-exosinf/visual-basic-net/blob/7c5893f2c4cc747a151317e6d957a6f5cec47a1b/cadenas-dinamicas-strings.md)
 En Visual Basic .NET, construir cadenas dinámicas (strings) es una tarea común. Hay varias formas de hacerlo, pero dos de las más recomendadas son: ```String.Format``` e interpolación de cadenas ```($"")```.
 
+## [📅 Uso de DateTime.TryParseExact en VB.NET](datetime-tryparseexact.md)
+Cuando necesitas convertir una cadena a DateTime asegurando que cumpla un formato exacto, la mejor opción es usar DateTime.TryParseExact. Esto evita errores y permite validar la entrada sin lanzar excepciones.
+
 ## [Convertir un DataTable a JSON](https://github.com/jmartinez-exosinf/visual-basic-net/blob/8faea33a24591caf0a4e8e0637fb03952280f696/datatable-a-json.md)
 En **VB.NET**, puedes convertir un objeto ``DataTable`` a una cadena **JSON** utilizando la biblioteca **Json.NET (Newtonsoft.Json)**. Esto es útil para exportar datos, integrarte con APIs o guardar información estructurada.
 
