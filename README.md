@@ -9,6 +9,9 @@ En Visual Basic .NET, construir cadenas dinámicas (strings) es una tarea común
 ## [📅 Uso de DateTime.TryParseExact en VB.NET](datetime-tryparseexact.md)
 Cuando necesitas convertir una cadena a DateTime asegurando que cumpla un formato exacto, la mejor opción es usar DateTime.TryParseExact. Esto evita errores y permite validar la entrada sin lanzar excepciones.
 
+## [Simular una Operación Ternaria en VB.NET con `If()` y `TryParse`](simular-operacion-ternaria.md)
+En VB.NET no existe directamente el operador ternario, sin embargo, puedes lograr el mismo comportamiento utilizando la función `If()` o una estructura `If...Then...Else`.
+
 ## [Convertir un DataTable a JSON](https://github.com/jmartinez-exosinf/visual-basic-net/blob/8faea33a24591caf0a4e8e0637fb03952280f696/datatable-a-json.md)
 En **VB.NET**, puedes convertir un objeto ``DataTable`` a una cadena **JSON** utilizando la biblioteca **Json.NET (Newtonsoft.Json)**. Esto es útil para exportar datos, integrarte con APIs o guardar información estructurada.
 
