@@ -18,7 +18,9 @@ En **VB.NET**, puedes convertir un objeto ``DataTable`` a una cadena **JSON** ut
 ## [Uso de Async y Await en Controllers VB.NET](https://github.com/jmartinez-exosinf/visual-basic-net/blob/f33f74d26e730515773d79593384a665900eb41b/async-y-await.md)
 En aplicaciones ASP.NET MVC o Web API, los controladores pueden beneficiarse del uso de **métodos asíncronos** para mejorar la escalabilidad y el rendimiento, especialmente cuando se realizan operaciones I/O como consultas a base de datos o llamadas a servicios externos.
 
-## [✅ Validar la entrada del usuario antes de usarla en consultas **SQL (VB.NET)**](validar-entradas-usuario-para-consultas-sql.md)
+# Temas de Vulnerabilidad
+
+## [✅ Validar la entrada del usuario antes de usarla en consultas **SQL (VB.NET)**](como-sanitizar-nombres-de-archivo.md)
 La validación de datos es crítica para evitar vulnerabilidades como **SQL Injection** y errores en la aplicación. Nunca debes usar datos sin verificar directamente en consultas **SQL**.
 
 ## [🛡️ Cómo Sanitizar Nombres de Archivo](https://github.com/jmartinez-exosinf/visual-basic-net/blob/1744f3cce7d21233343dc9752e778dd98a9894e5/como-sanitizar-nombres-de-archivo.md)
