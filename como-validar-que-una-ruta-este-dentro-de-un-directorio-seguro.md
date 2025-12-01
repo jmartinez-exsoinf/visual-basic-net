@@ -1,4 +1,5 @@
 # ✅ Cómo validar que una ruta esté dentro de un directorio seguro en VB.NET
+Antes de procesar cualquier ruta proporcionada por el cliente, es fundamental validarla para garantizar que permanezca dentro del directorio seguro definido por la aplicación. Esto evita vulnerabilidades críticas como el acceso a carpetas privadas mediante técnicas de traversal.
 
 ## ¿Por qué es importante?
 Cuando recibes una ruta desde el cliente (por ejemplo, para subir o eliminar un archivo), un atacante podría enviar algo como:
