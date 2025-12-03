@@ -1,4 +1,5 @@
 # ✅ Pasar el objeto de conexión como parámetro puede ser vulnerable
+Si el método recibe la conexión desde fuera, el código que lo llama puede alterarla antes o después de ejecutarse, afectando seguridad y estabilidad. Aquí aprenderás **por qué ocurre y cómo evitarlo**.
 
 ## ¿Qué hace el código?
 ```VisualBasic
