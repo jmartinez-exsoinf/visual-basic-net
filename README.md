@@ -28,3 +28,6 @@ Sanitizar nombres de archivo es esencial para evitar errores y vulnerabilidades 
 
 ## [✅ Cómo validar que una ruta esté dentro de un directorio seguro en VB.NET](validar-entradas-usuario-para-consultas-sql.md)
 Antes de procesar cualquier ruta proporcionada por el cliente, es fundamental validarla para garantizar que permanezca dentro del directorio seguro definido por la aplicación. Esto evita vulnerabilidades críticas como el acceso a carpetas privadas mediante técnicas de traversal.
+
+## [✅ Pasar el objeto de conexión como parámetro puede ser vulnerable](pasar-el-objeto-de-conexion-como-parametro-puede-ser-vulnerable.md)
+Si el método recibe la conexión desde fuera, el código que lo llama puede alterarla antes o después de ejecutarse, afectando seguridad y estabilidad. Aquí aprenderás **por qué ocurre y cómo evitarlo**.
