@@ -14,7 +14,7 @@ Este método recibe un objeto ```NpgsqlConnection``` desde fuera y lo usa para e
 ## ¿Por qué es vulnerable?
 
 ### Exposición del objeto de conexión
-Si el método recibe la conexión desde el exterior, cualquier código que llame a este método puede manipular el objeto conn antes o después de la ejecución.
+Si el método recibe la conexión desde el exterior, cualquier código que llame a este método puede manipular el objeto `conn` antes o después de la ejecución.
 
 Esto abre la puerta a:
 - Cambio de estado (cerrar la conexión antes de tiempo).
