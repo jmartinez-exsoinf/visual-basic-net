@@ -26,7 +26,7 @@ La validación de datos es crítica para evitar vulnerabilidades como **SQL Inje
 ## [🛡️ Cómo Sanitizar Nombres de Archivo](como-sanitizar-nombres-de-archivo.md)
 Sanitizar nombres de archivo es esencial para evitar errores y vulnerabilidades como directory traversal o el uso de caracteres inválidos. Este tutorial muestra cómo crear una función segura en VB.NET.
 
-## [✅ Cómo validar que una ruta esté dentro de un directorio seguro en VB.NET](validar-entradas-usuario-para-consultas-sql.md)
+## [✅ Cómo validar que una ruta esté dentro de un directorio seguro en VB.NET](como-validar-que-una-ruta-este-dentro-de-un-directorio-seguro.md)
 Antes de procesar cualquier ruta proporcionada por el cliente, es fundamental validarla para garantizar que permanezca dentro del directorio seguro definido por la aplicación. Esto evita vulnerabilidades críticas como el acceso a carpetas privadas mediante técnicas de traversal.
 
 ## [✅ Pasar el objeto de conexión como parámetro puede ser vulnerable](pasar-el-objeto-de-conexion-como-parametro-puede-ser-vulnerable.md)
