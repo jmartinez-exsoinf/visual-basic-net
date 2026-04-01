@@ -57,43 +57,22 @@ El servidor ahora intercepta la petición y compara dos cosas: el token que vien
     VB.Net
     
     ```
-    ' Extraer el token del Header personalizado
-    Dim headers = Request.Headers 
-    If headers.Contains("X-XSRF-Token") Then
-        Dim formToken As String = headers.GetValues("X-XSRF-Token").FirstOrDefault()
-    
-        ' Obtener la cookie de sesión para la comparativa
-        Dim cookie = HttpContext.Current.Request.Cookies("__RequestVerificationToken")
-        Dim cookieToken As String = If(cookie IsNot Nothing, cookie.Value, Nothing)
-    
-        ' Validación cruzada (Si falla, lanza una excepción)
-        System.Web.Helpers.AntiForgery.Validate(cookieToken, formToken)
-    Else
-        Return BadRequest("Falta Token de Seguridad")
-    End If
-    
-    ```
+                ' --- VALIDACIÓN ANTI-CSRF OBLIGATORIA PARA CHECKMARX ---
+                ' Extraer el token del Header personalizado
+                Dim headers = Request.Headers
+                If headers.Contains("X-XSRF-Token") Then
+                    Dim formToken As String = headers.GetValues("X-XSRF-Token").FirstOrDefault()
 
-Otra forma de validar:
-```VisualBasicNet
-' Usamos HttpContext.Current para obtener la petición actual de forma global
-        Dim request = HttpContext.Current.Request
-        
-        ' 1. Obtener el token del Header (usando la colección de Headers clásica)
-        Dim headerToken As String = request.Headers("X-XSRF-Token")
-        
-        If String.IsNullOrEmpty(headerToken) Then
-            ' Lanzamos una excepción genérica que el Catch del controlador atrapará
-            Throw New Exception("Falta Token de Seguridad (X-XSRF-Token)")
-        End If
+                    ' Obtener la cookie de sesión para la comparativa
+                    Dim cookie = HttpContext.Current.Request.Cookies("__RequestVerificationToken")
+                    Dim cookieToken As String = If(cookie IsNot Nothing, cookie.Value, Nothing)
 
-        ' 2. Obtener la cookie de sesión
-        Dim cookie = request.Cookies("__RequestVerificationToken")
-        Dim cookieToken As String = If(cookie IsNot Nothing, cookie.Value, Nothing)
-
-        ' 3. Validar (Lanzará excepción si no coincide)
-        ' Si cookieToken es Nothing, Validate fallará, lo cual es correcto por seguridad
-        AntiForgery.Validate(cookieToken, headerToken)
+                    ' Validación cruzada (Si falla, lanza una excepción)
+                    System.Web.Helpers.AntiForgery.Validate(cookieToken, formToken)
+                Else
+                    Return BadRequest("Falta Token de Seguridad")
+                End If
+                ' --- FIN VALIDACIÓN ---
 ```
 
 ----------
