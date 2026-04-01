@@ -56,7 +56,7 @@ El servidor ahora intercepta la petición y compara dos cosas: el token que vien
     
     VB.Net
     
-    ```
+    ```VBNET
                 ' --- VALIDACIÓN ANTI-CSRF OBLIGATORIA PARA CHECKMARX ---
                 ' Extraer el token del Header personalizado
                 Dim headers = Request.Headers
@@ -73,7 +73,7 @@ El servidor ahora intercepta la petición y compara dos cosas: el token que vien
                     Return BadRequest("Falta Token de Seguridad")
                 End If
                 ' --- FIN VALIDACIÓN ---
-```
+    ```
 
 ----------
 
