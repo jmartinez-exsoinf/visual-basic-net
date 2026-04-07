@@ -12,3 +12,7 @@ Evitar construir rutas de archivos dentro de los métodos, es mejor enviar la ru
           ....
     End Function
 ```
+
+# Solución 2
+
+En métodos privados, evitar el uso de parámetros, utilizar variables a nivel módulo o globales
