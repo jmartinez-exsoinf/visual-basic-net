@@ -24,6 +24,9 @@ En aplicaciones ASP.NET MVC o Web API, los controladores pueden beneficiarse del
 ## [🚀 Strict, Explicit e Infer en VB.NET](strict-explicit-infer.md)
 Estas tres directivas controlan cómo VB.NET maneja **tipos de datos y variables** en tiempo de compilación.
 
+## [✅ ¿Qué es `Overrides`?](overrides.md)
+`Overrides` se usa cuando una clase hija (**derivada**) **reemplaza o modifica la implementación** de un método definido en una clase base.
+
 # Temas de Vulnerabilidad
 
 ## [✅ Validar la entrada del usuario antes de usarla en consultas **SQL (VB.NET)**](validar-entradas-usuario-para-consultas-sql.md)
